@@ -1,0 +1,234 @@
+Biggest problem:
+	Biggest problem was installation of EA (because I wanted to use it on linux). Unfortunately my 
+distro didn't budge, so I had to give up and install on windows, wich brought another problems.
+Total solve time: 30h
+
+Hw02
+Package in package 'HomeWorks'
+
+Hw02
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+
+
+Hw02 diagram
+Mind Mapping diagram in package 'Hw02'
+
+Hw02 
+Version 1.0
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+
+
+Figure 1:  	Hw02
+
+
+ 
+
+Creating Diagram
+MainTopic «MainTopic» in package 'Hw02'
+
+Creating Diagram 
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+ASSOCIATIONS
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Creating Diagram 
+«MainTopic»
+
+
+
+  
+
+Download EA
+MainTopic «MainTopic» in package 'Hw02'
+
+Download EA 
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+ASSOCIATIONS
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Download EA 
+«MainTopic»
+
+
+
+  
+
+EA Instalation
+MainTopic «MainTopic» in package 'Hw02'
+
+EA Instalation 
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+ASSOCIATIONS
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) EA Instalation 
+«MainTopic»
+
+
+
+  
+
+Generating Documentation
+MainTopic «MainTopic» in package 'Hw02'
+
+Generating Documentation 
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+ASSOCIATIONS
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Generating 
+Documentation «MainTopic»
+
+
+
+  
+
+Generating PDF documentation
+MainTopic «MainTopic» in package 'Hw02'
+
+Generating PDF documentation 
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+ASSOCIATIONS
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Generating PDF 
+documentation «MainTopic»
+
+
+
+  
+
+Matvej Safrankov
+CentralTopic «CentralTopic» in package 'Hw02'
+
+Matvej Safrankov 
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+ASSOCIATIONS
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Writing a problem 
+during solution «MainTopic»
+
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) EA Instalation 
+«MainTopic»
+
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Creating Diagram 
+«MainTopic»
+
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Generating 
+Documentation «MainTopic»
+
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Download EA 
+«MainTopic»
+
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Generating PDF 
+documentation «MainTopic»
+
+
+
+  
+
+Writing a problem during solution
+MainTopic «MainTopic» in package 'Hw02'
+
+Writing a problem during solution 
+Version 1.0  Phase 1.0  Proposed
+safra created on 10/5/2024.  Last modified 10/5/2024
+
+ASSOCIATIONS
+
+
+  Relationship (direction: Unspecified)  «Relationship»
+
+
+Source: Public (CentralTopic) Matvej Safrankov «CentralTopic»
+
+Target: Public (MainTopic) Writing a problem 
+during solution «MainTopic»
+
+
+
+    
+
+
+
