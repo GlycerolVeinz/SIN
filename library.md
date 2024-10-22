@@ -37,6 +37,7 @@ class Author{
 }
 
 class Address{
+    -Int homeNumber
     -String city
     -String street
 }
