@@ -32,13 +32,13 @@ public class Book {
     @JoinColumn(name = "genre_id")
     private Genre genre;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "authorship",
             joinColumns = @JoinColumn(name = "book_id"),
             inverseJoinColumns = @JoinColumn(name = "author_id")
     )
-    private List<Author> author;
+    private List<Author> authorship;
 
     @ManyToOne
     @JoinColumn(name = "library_id")
