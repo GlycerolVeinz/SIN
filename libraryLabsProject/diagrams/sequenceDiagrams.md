@@ -12,10 +12,11 @@ sequenceDiagram
     AR-->>A: author
     
     A->>P: makeContract(author)
+    P->>PR: read(id)
+    PR-->>A: publisher
     P->>PR: update(publisher)
-    PR-->>P: updateConfirmed
+    PR-->>A: updateConfirmed
     
-    P -->> A: contract
     A ->> AR: update(author)
     AR -->> A: updateConfirmed
 ```
