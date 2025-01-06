@@ -1,4 +1,4 @@
-package priv.sin.librarylabsproject.dto.mapper;
+package priv.sin.librarylabsproject.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
