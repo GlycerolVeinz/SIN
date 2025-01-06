@@ -33,3 +33,5 @@ public class Author {
     @ManyToMany(mappedBy = "authorship")
     private List<Book> books;
 }
+
+// This type of class is a POJO class that represents the Author entity in the database.

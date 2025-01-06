@@ -9,3 +9,5 @@ public interface AuthorService {
     Author updateContract(Author author, Publisher publisher);
 
 }
+
+// This is a service interface that provides methods over authors.

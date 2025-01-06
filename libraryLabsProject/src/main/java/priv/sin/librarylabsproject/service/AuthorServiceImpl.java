@@ -28,3 +28,6 @@ public class AuthorServiceImpl implements AuthorService{
         return authorRepository.save(author);
     }
 }
+
+// This is a service implementation that provides methods over authors.
+// It's all the backend logic that is related to the author entity.
