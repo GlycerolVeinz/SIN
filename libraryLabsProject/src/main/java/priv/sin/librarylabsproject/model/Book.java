@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 @Getter
 @Setter
@@ -45,9 +46,13 @@ public class Book {
     private Library library;
 
     @Override
-    public boolean equals(Object obj) {
-        if (!(obj instanceof Book other))
-            return false;
-        return this.id.equals(other.id);
+    public boolean equals(Object o) {
+        if (!(o instanceof Book book)) return false;
+        return Objects.equals(id, book.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(id);
     }
 }
