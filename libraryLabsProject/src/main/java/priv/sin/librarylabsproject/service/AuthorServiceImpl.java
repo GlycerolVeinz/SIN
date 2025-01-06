@@ -9,7 +9,7 @@ import priv.sin.librarylabsproject.repositories.AuthorRepository;
 @Service
 public class AuthorServiceImpl implements AuthorService{
     private final AuthorRepository authorRepository;
-
+    
     @Autowired
     public AuthorServiceImpl(AuthorRepository authorRepository) {
         this.authorRepository = authorRepository;
@@ -23,21 +23,8 @@ public class AuthorServiceImpl implements AuthorService{
     }
 
     @Override
-    public void makeContract(Author author, Integer publisherId, PublisherService publisherService) {
-        Publisher publisher = publisherService.findById(publisherId);
-        Publisher publisherUpdated = publisherService.updateContract(publisher, author);
-        Author authorUpdated = updateContract(author, publisher);
-
-        if (!(authorUpdated != null && publisherUpdated != null)) {
-            throw new RuntimeException("Failed to make contract between author and publisher");
-        }
-    }
-
-    @Override
     public Author updateContract(Author author, Publisher publisher) {
         author.getPublishers().add(publisher);
         return authorRepository.save(author);
     }
-
-
 }

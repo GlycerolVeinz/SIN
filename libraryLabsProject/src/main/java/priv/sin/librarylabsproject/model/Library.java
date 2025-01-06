@@ -5,8 +5,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
+import java.util.Set;
 
-@Getter
+ @Getter
 @Setter
 @Entity
 @Table(name = "libraries")
@@ -19,7 +20,7 @@ public class Library {
 
     @OneToMany
     @JoinColumn(name = "library_id")
-    private List<Book> books;
+    private Set<Book> books;
 
     @OneToOne
     @JoinColumn(name = "address_id")

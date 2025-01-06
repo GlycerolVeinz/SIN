@@ -23,17 +23,6 @@ public class PublisherServiceImpl implements PublisherService{
     }
 
     @Override
-    public void makeContract(Publisher publisher, Integer authorId, AuthorService authorService) {
-        Author author = authorService.findById(authorId);
-        Author authorUpdated = authorService.updateContract(author, publisher);
-        Publisher publisherUpdated = updateContract(publisher, author);
-
-        if (!(authorUpdated != null && publisherUpdated != null)) {
-            throw new RuntimeException("Failed to make contract between author and publisher");
-        }
-    }
-
-    @Override
     public Publisher updateContract(Publisher publisher, Author authorId) {
         publisher.getContracts().add(authorId);
         return publisherRepository.save(publisher);

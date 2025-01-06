@@ -43,4 +43,11 @@ public class Book {
     @ManyToOne
     @JoinColumn(name = "library_id")
     private Library library;
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Book other))
+            return false;
+        return this.id.equals(other.id);
+    }
 }
